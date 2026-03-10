@@ -1,0 +1,6 @@
+deployment:
+  imageURL: dineshreddy11/mysql
+  imageVersion: v1
+hpa: 
+  maxReplicas: 10
+  utilization: 75
