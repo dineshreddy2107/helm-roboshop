@@ -23,7 +23,7 @@ spec:
       
       containers:
       - name: mongodb
-        image: {{ .Values.statefulset.imageURL }}: {{ .Values.statefulset.version }}
+        image: "{{ .Values.statefulset.imageURL }}: {{ .Values.statefulset.version }}"
         volumeMounts:
         - name: mongodb-data
           mountPath: /data/db
