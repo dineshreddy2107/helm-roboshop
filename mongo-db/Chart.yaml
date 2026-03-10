@@ -2,4 +2,4 @@ apiVersion: v2
 name: mongodb
 version: 1.0.0
 description: mongodb helm ctart description
-appVersion: v1
+appVersion: apps/v1
